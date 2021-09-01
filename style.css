@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    height: 100vh;
+    color: rgb(22, 22, 22);
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explain {
+    text-align: center;
+    width: 75vh;
+}
+
+.btnWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid rgb(68, 68, 68);
+    min-height: 7.5vh;
+    min-width: 35vw;
+}
+
+#passIs {
+    display: flex;
+    justify-content: center;
+}
+
+#yourPass {
+    font-weight: bold;
+    text-align: center;
+}
+
+#btn {
+    background-color: rgb(22, 22, 22);
+    color: rgb(233, 233, 233);
+    border: none;
+    padding: 2vh 2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#btn:hover {
+    background-color: black;
+    color: white;
+}
+
+#copy {
+    min-height: 3vh;
+    min-width: 36vw;
+    border: 2px solid rgb(68, 68, 68);
+    background-color: rgb(68, 68, 68);
+    color: rgb(223, 223, 223);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#copy:hover {
+    background-color: rgb(48, 48, 48);
+    color: rgb(238, 238, 238);
+    border: 2px solid rgb(48, 48, 48);
+}
